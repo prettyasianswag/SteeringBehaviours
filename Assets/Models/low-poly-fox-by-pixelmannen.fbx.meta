@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: 274fe656cc2a4414a8e8453209a2f407
+timeCreated: 1495284642
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: animations
+    100002: b_Head
+    100004: b_Hip
+    100006: b_LeftFoot01
+    100008: b_LeftFoot02
+    100010: b_LeftForeArm
+    100012: b_LeftHand
+    100014: b_LeftLeg01
+    100016: b_LeftLeg02
+    100018: b_LeftUpperArm
+    100020: b_Neck
+    100022: b_RightFoot01
+    100024: b_RightFoot02
+    100026: b_RightForeArm
+    100028: b_RightHand
+    100030: b_RightLeg01
+    100032: b_RightLeg02
+    100034: b_RightUpperArm
+    100036: b_Root
+    100038: b_Spine01
+    100040: b_Spine02
+    100042: b_Tail01
+    100044: b_Tail02
+    100046: b_Tail03
+    100048: CameraPreset
+    100050: fox1
+    100052: LightPreset
+    100054: //RootNode
+    100056: OverCamera
+    400000: animations
+    400002: b_Head
+    400004: b_Hip
+    400006: b_LeftFoot01
+    400008: b_LeftFoot02
+    400010: b_LeftForeArm
+    400012: b_LeftHand
+    400014: b_LeftLeg01
+    400016: b_LeftLeg02
+    400018: b_LeftUpperArm
+    400020: b_Neck
+    400022: b_RightFoot01
+    400024: b_RightFoot02
+    400026: b_RightForeArm
+    400028: b_RightHand
+    400030: b_RightLeg01
+    400032: b_RightLeg02
+    400034: b_RightUpperArm
+    400036: b_Root
+    400038: b_Spine01
+    400040: b_Spine02
+    400042: b_Tail01
+    400044: b_Tail02
+    400046: b_Tail03
+    400048: CameraPreset
+    400050: fox1
+    400052: LightPreset
+    400054: //RootNode
+    400056: OverCamera
+    4300000: fox1
+    7400000: Base stack
+    7400002: Walk
+    7400004: Idle
+    7400006: Run
+    9500000: //RootNode
+    13700000: fox1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Base stack
+      takeName: Base stack
+      firstFrame: 0
+      lastFrame: 478
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: animations
+        weight: 1
+      - path: animations/b_Root
+        weight: 1
+      - path: animations/b_Root/b_Hip
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02/b_LeftFoot01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02/b_LeftFoot01/b_LeftFoot02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02/b_RightFoot01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02/b_RightFoot01/b_RightFoot02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm/b_LeftForeArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm/b_LeftForeArm/b_LeftHand
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_Neck
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_Neck/b_Head
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm/b_RightForeArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm/b_RightForeArm/b_RightHand
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01/b_Tail02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01/b_Tail02/b_Tail03
+        weight: 1
+      - path: animations/fox1
+        weight: 1
+      - path: CameraPreset
+        weight: 1
+      - path: CameraPreset/OverCamera
+        weight: 1
+      - path: LightPreset
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Base stack
+      firstFrame: 228
+      lastFrame: 313
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: animations
+        weight: 1
+      - path: animations/b_Root
+        weight: 1
+      - path: animations/b_Root/b_Hip
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02/b_LeftFoot01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02/b_LeftFoot01/b_LeftFoot02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02/b_RightFoot01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02/b_RightFoot01/b_RightFoot02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm/b_LeftForeArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm/b_LeftForeArm/b_LeftHand
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_Neck
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_Neck/b_Head
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm/b_RightForeArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm/b_RightForeArm/b_RightHand
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01/b_Tail02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01/b_Tail02/b_Tail03
+        weight: 1
+      - path: animations/fox1
+        weight: 1
+      - path: CameraPreset
+        weight: 1
+      - path: CameraPreset/OverCamera
+        weight: 1
+      - path: LightPreset
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Base stack
+      firstFrame: 0
+      lastFrame: 213
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: animations
+        weight: 1
+      - path: animations/b_Root
+        weight: 1
+      - path: animations/b_Root/b_Hip
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02/b_LeftFoot01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02/b_LeftFoot01/b_LeftFoot02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02/b_RightFoot01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02/b_RightFoot01/b_RightFoot02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm/b_LeftForeArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm/b_LeftForeArm/b_LeftHand
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_Neck
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_Neck/b_Head
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm/b_RightForeArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm/b_RightForeArm/b_RightHand
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01/b_Tail02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01/b_Tail02/b_Tail03
+        weight: 1
+      - path: animations/fox1
+        weight: 1
+      - path: CameraPreset
+        weight: 1
+      - path: CameraPreset/OverCamera
+        weight: 1
+      - path: LightPreset
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Base stack
+      firstFrame: 328
+      lastFrame: 355
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: animations
+        weight: 1
+      - path: animations/b_Root
+        weight: 1
+      - path: animations/b_Root/b_Hip
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02/b_LeftFoot01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_LeftLeg01/b_LeftLeg02/b_LeftFoot01/b_LeftFoot02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02/b_RightFoot01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_RightLeg01/b_RightLeg02/b_RightFoot01/b_RightFoot02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm/b_LeftForeArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_LeftUpperArm/b_LeftForeArm/b_LeftHand
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_Neck
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_Neck/b_Head
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm/b_RightForeArm
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Spine01/b_Spine02/b_RightUpperArm/b_RightForeArm/b_RightHand
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01/b_Tail02
+        weight: 1
+      - path: animations/b_Root/b_Hip/b_Tail01/b_Tail02/b_Tail03
+        weight: 1
+      - path: animations/fox1
+        weight: 1
+      - path: CameraPreset
+        weight: 1
+      - path: CameraPreset/OverCamera
+        weight: 1
+      - path: LightPreset
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
