@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Node
 {
+    // Member variables
     public bool walkable;
     public Vector3 position;
-    public int gridX, gridZ;
-    public int gCost, hCost; // A.K.A, Heuristic
+    public int gridX;
+    public int gridZ;
+    public int gCost;
+    public int hCost; // Heuristic
     public int fCost
     {
         get
@@ -15,16 +18,9 @@ public class Node
             return gCost + hCost;
         }
     }
-    public bool isInPath = false;
     public Node parent;
 
-    /// <summary>
-    /// Constructor for Node
-    /// </summary>
-    /// <param name="walkable">Detects whether node is walkable</param>
-    /// <param name="position">Point where node is located</param>
-    /// <param name="gridX">X coordinate in 2D array</param>
-    /// <param name="gridZ">Literally the same thing, but Z</param>
+    // Constructor
     public Node(bool walkable, Vector3 position, int gridX, int gridZ)
     {
         this.walkable = walkable;

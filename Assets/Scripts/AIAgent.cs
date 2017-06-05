@@ -12,6 +12,7 @@ public class AIAgent : MonoBehaviour
 
     void Start()
     {
+        // Get steering behaviours
         behaviours = GetComponents<SteeringBehaviour>();
     }
 
